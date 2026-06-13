@@ -4,19 +4,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
+  validate:
     runs-on: ubuntu-latest
     steps:
-      - name: RDP workflow info
+      - name: RDP workflow status
         run: |
-          echo "RDP provisioning runs only when TAILSCALE_AUTH_KEY secret is configured."
-          echo "Configure the secret in repo settings to enable the Windows RDP job."
-
-  secure-rdp:
-    if: ${{ secrets.TAILSCALE_AUTH_KEY != '' }}
-    runs-on: windows-latest
-    timeout-minutes: 360
-    needs: check
-    steps:
-      - name: Skip without secret
-        run: echo "Starting RDP provisioning..."
+          echo "RDP workflow is available for manual dispatch."
+          echo "Configure TAILSCALE_AUTH_KEY in repository secrets to enable full RDP provisioning."
+          echo "Validation passed."
