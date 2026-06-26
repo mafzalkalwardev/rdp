@@ -1,28 +1,39 @@
-<div align="center">
+﻿<div align="center">
 
-# 🚀 Rdp
+# RDP Notes and Setup
 
-**Rdp — professional open source project.**
+**Repository for remote desktop setup notes, environment practice, and lightweight infrastructure workflow experiments.**
 
-Documented · MIT licensed · Maintained
+RDP, setup notes, infrastructure, workflow
 
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
+[![Maintained](https://img.shields.io/badge/Maintained-yes-22c55e?style=for-the-badge)](https://github.com/mafzalkalwardev/rdp)
 
 </div>
 
 ---
 
-## 🐍 Contribution graph
+## Overview
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/rdp/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/rdp/output/snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/rdp/output/snake.svg" />
-</picture>
+Repository for remote desktop setup notes, environment practice, and lightweight infrastructure workflow experiments.
 
----
+## Highlights
 
-## 🚀 Quick start
+- Clean repository documentation with a project-specific summary.
+- Screenshot section when captured portfolio media is available.
+- Search-friendly tags for portfolio and GitHub discovery.
+- Maintained by [Muhammad Afzal Kalwar](https://github.com/mafzalkalwardev).
 
-Clone the repository and follow project-specific setup in docs.
+## Quick Start
+
+Clone the repository and review the source files for setup or usage details:
+
+``bash
+git clone https://github.com/mafzalkalwardev/rdp.git
+cd rdp
+``
+
+## Author
+
+Muhammad Afzal Kalwar - Full-Stack Developer and Python Automation Engineer  
+Portfolio: https://mafzalkalwardev.github.io
